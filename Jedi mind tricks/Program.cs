@@ -20,7 +20,7 @@ namespace Jedi_mind_tricks
             people["Alex"] = 18;
 
             // ??
-            Console.WriteLine(people["Nikolai"]);
+            Console.WriteLine(people.First() + "\n");
 
             people.Remove("Han");
 
